@@ -21,7 +21,7 @@ function div(a, b) {
 //git commit
 
 function testAdd() {
-    console.log(add(1, 1) === 2);
+    console.log(add(3, 3) === 9);
 }
 
 function testSubtract(){
