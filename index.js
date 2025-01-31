@@ -9,3 +9,11 @@ function subtract(a, b) {
 }
 
 //git commit
+
+function testAdd() {
+    console.log(add(1, 1) === 2);
+}
+
+function testSubtract(){
+    console.log(subtract(2, 1) === 1);
+}  
