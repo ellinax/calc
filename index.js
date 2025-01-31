@@ -8,6 +8,11 @@ function subtract(a, b) {
     return a - b;
 }
 
+// 곱하기
+function multiply(a, b) {
+    return a * b;
+}
+
 //git commit
 
 function testAdd() {
@@ -16,4 +21,4 @@ function testAdd() {
 
 function testSubtract(){
     console.log(subtract(2, 1) === 1);
-}  
+}
