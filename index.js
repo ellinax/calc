@@ -8,11 +8,12 @@ function subtract(a, b) {
     return a - b;
 }
 
-function mul(a, b) {
+// 곱하기
+function multiply(a, b) {
     return a * b;
 }
 
-
+// 나누기
 function div(a, b) {
     return a / b;
 }
@@ -25,4 +26,4 @@ function testAdd() {
 
 function testSubtract(){
     console.log(subtract(2, 1) === 1);
-}  
+}
